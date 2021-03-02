@@ -8,13 +8,13 @@ let remplaceECar = (texte) => {
     return text;
 }
 let concatString = (texte1, texte2) => {
-
+    return texte1 + texte2; 
 }
 let afficherCar5 =  (texte) => {
-
+    return texte[4];
 }
 let afficher9Car =  (texte) => {
-
+    
 }
 let majusculeString =  (texte) => {
 
