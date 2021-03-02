@@ -23,10 +23,10 @@ let minusculeString =  (texte) => {
     return texte.toLowerCase();
 }
 let SupprEspaceString =  (texte) => {
-
+    return texte.trim();
 }
 let IsString =  (texte) => {
-
+    return typeof texte === 'string';
 }
 
 let AfficherExtensionString =  (texte) => {
