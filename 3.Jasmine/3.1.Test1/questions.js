@@ -30,32 +30,33 @@ let IsString =  (texte) => {
 }
 
 let AfficherExtensionString =  (texte) => {
-    return texte.slice(-3);
+    return texte.split('.').pop();
 }
 let NombreEspaceString =  (texte) => {
+    return texte.split(" ").length - 1;
 
 }
 let InverseString =  (texte) => {
-
+    return texte.split('').reverse().join('');
 }
 
 /**
  * Exercices sur les nombres et les caluls mathématiques
  */
 let calculPuissance =  (x, y) => {
-
+    return Math.pow(x, y);
 }
 let valeurAbsolue =  (nombre) => {
-
+    return Math.abs(nombre);
 }
 let valeurAbsolueArray =  (array) => {
-
+    return array.map(Math.abs);
 }
 let sufaceCercle =  (rayon) => {
-
+    return Math.round(Math.PI * rayon**2);
 }
 let hypothenuse =  (ab, ac) => {
-
+    return  Math.hypot(ab,ac);
 }
 let calculIMC =  (poids, taille) => {
 
