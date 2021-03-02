@@ -30,7 +30,7 @@ let IsString =  (texte) => {
 }
 
 let AfficherExtensionString =  (texte) => {
-
+    return texte.slice(-3);
 }
 let NombreEspaceString =  (texte) => {
 
