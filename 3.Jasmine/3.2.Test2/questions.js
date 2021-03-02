@@ -17,15 +17,18 @@ let AjoutElementLangages =  (langages) => {
 }
 
 let AjoutElementNombres =  (nombres) => {
-
+    nombres.unshift(-2, -1);
+    return nombres;
 }
 
 let SuppressionPremierElement =  (langages) => {
-
+    langages.shift();
+    return langages;
 }
 
 let SuppressionDernierElement =  (langages) => {
-
+    langages.pop();
+    return langages;
 }
 
 let ConversionChaineTableau =  (reseaux_sociaux_chaine) => {
