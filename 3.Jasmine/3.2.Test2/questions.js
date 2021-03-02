@@ -1,5 +1,5 @@
 let CreationTableauLangages =  () => {
-
+    return ["html","css","java","php"]
 }
 
 let CreationTableauNombres =  () => {

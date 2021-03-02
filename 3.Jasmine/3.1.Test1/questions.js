@@ -59,5 +59,5 @@ let hypothenuse =  (ab, ac) => {
     return  Math.hypot(ab,ac);
 }
 let calculIMC =  (poids, taille) => {
-
+    return new Number((poids/(taille*taille)).toFixed(2));
 }
