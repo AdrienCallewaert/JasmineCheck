@@ -14,13 +14,13 @@ let afficherCar5 =  (texte) => {
     return texte[4];
 }
 let afficher9Car =  (texte) => {
-    
+    return texte.slice(0,9);
 }
 let majusculeString =  (texte) => {
-
+    return texte.toUpperCase();
 }
 let minusculeString =  (texte) => {
-
+    return texte.toLowerCase();
 }
 let SupprEspaceString =  (texte) => {
 
