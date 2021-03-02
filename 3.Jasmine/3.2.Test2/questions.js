@@ -1,17 +1,19 @@
 let CreationTableauLangages =  () => {
-    return ["html","css","java","php"]
+    return ["Html", "CSS", "Java", "PHP"];
 }
 
 let CreationTableauNombres =  () => {
-
+    return [ 0, 1, 2, 3, 4, 5 ];
 }
 
 let RemplacementElement =  (langages) => {
-
+    langages[2] = "Javascript";
+    return langages;
 }
 
 let AjoutElementLangages =  (langages) => {
-
+    langages.push("Ruby", "Python");
+    return langages;
 }
 
 let AjoutElementNombres =  (nombres) => {
