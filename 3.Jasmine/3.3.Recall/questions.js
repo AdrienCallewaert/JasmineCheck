@@ -1,9 +1,9 @@
 let selectElementsStartingWithA = (array) => {
-    return 'Write your method here';
+    return array.filter((word) => word.startsWith("a"));
 }
 
 let selectElementsStartingWithVowel = (array) => {
-    return 'Write your method here';
+    return array.filter(str => /^[aeiouy]/i.test(str));
 }
 
 let removeNullElements = (array) => {
