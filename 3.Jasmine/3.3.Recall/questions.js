@@ -7,7 +7,7 @@ let selectElementsStartingWithVowel = (array) => {
 }
 
 let removeNullElements = (array) => {
-    return 'Write your method here';
+    return array.filter(word => word != null);
 }
 
 let removeNullAndFalseElements = (array) => {
