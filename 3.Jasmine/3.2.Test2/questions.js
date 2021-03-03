@@ -36,13 +36,11 @@ let ConversionChaineTableau =  (reseaux_sociaux_chaine) => {
 }
 
 let ConversionTableauChaine =  (langages) => {
-
+    return langages.join();
 }
 
 let TriTableau =  (reseaux_sociaux) => {
-
 }
 
 let InversionTableau =  (reseaux_sociaux) =>{
-
 }
