@@ -44,4 +44,5 @@ let TriTableau =  (reseaux_sociaux) => {
 }
 
 let InversionTableau =  (reseaux_sociaux) =>{
+    return reseaux_sociaux.reverse();
 }
