@@ -40,6 +40,7 @@ let ConversionTableauChaine =  (langages) => {
 }
 
 let TriTableau =  (reseaux_sociaux) => {
+    return reseaux_sociaux.sort();
 }
 
 let InversionTableau =  (reseaux_sociaux) =>{
