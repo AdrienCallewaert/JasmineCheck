@@ -11,7 +11,7 @@ let removeNullElements = (array) => {
 }
 
 let removeNullAndFalseElements = (array) => {
-    return 'Write your method here';
+    return array.filter(word => word !== null && word !== false);
 }
 
 let reverseWordsInArray = (array) => {
